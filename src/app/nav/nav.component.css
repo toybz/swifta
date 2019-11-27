@@ -1,0 +1,26 @@
+.active_item{
+  color: black !important;
+
+}
+.nav-item{
+ color: mintcream;
+  text-decoration: underline;
+
+}
+.nav-item:hover{
+  color: lightgray;
+}
+
+.app-nav{
+  padding: 50px 4px 10px 10px;
+
+
+}
+.footer{
+  background: #222222;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  height: available;
+  color: white;
+}

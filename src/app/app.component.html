@@ -1,0 +1,29 @@
+
+<div class="page-container" [style.background-color]="bgColor">
+
+
+  <div class="container" style="padding-top: 4vh;">
+
+    <div class="row parent" align="center">
+
+      <div class="col-sm-6">
+
+        <app-nav  (changeImage)="updateImageAndBackground($event)"></app-nav>
+
+      </div>
+
+
+      <div class="col-sm-6 preview" style="padding: 0" >
+
+        <app-preview [image]="currentImage"></app-preview>
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+</div>
+
